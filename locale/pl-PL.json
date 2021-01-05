@@ -53,21 +53,21 @@
 
     "commands.donatesave.embedTitle": "Save przeniesiony!",
     "commands.donatesave.embedDescription": "`{donatedSaves}` z twoich save'ów zostało przeniesione do tej gildii, dodając `{addedSaves}` do jej save'ów, dając łącznie `{guildSaves}/2` save'y gildii. (1 Save gildii = 5 Save'ów użytkownika)\n\nMasz jeszcze `{memberSaves}` save'ów.",
-    "commands.donatesave.error.notEnoughSaves": "Potrzebujesz przynajmniej `1` save, by móc go przenieść.",
+    "commands.donatesave.error.notEnoughSaves": "Potrzebujesz przynajmniej `1` save'a, by móc go przenieść.",
     "commands.donatesave.error.maxSavesReached": "Ta gildia ma już maksymalną liczbę save'ów! (2)",
 
     "commands.transfersave.embedTitle": "Save oddany!",
     "commands.transfersave.embedDescription": "Oddano `{transferredSaves}` twoich save'ów do <@{targetId}>. `{deductedSaves}` save'ów zostało odjętych z Twojego konta.\n\nMasz jeszcze `{savesLeft}` save'y.",
     "commands.transfersave.error.noTargetSpecified": "Musisz podać użytkownika, któremu chcesz oddać save'y.",
     "commands.transfersave.error.notEnoughSaves": "Potrzebujesz przynajmniej `1.5` save'a, by móc go oddać.",
-    "commands.transfersave.error.cannotSelfTransfer": "Nie możesz oddać save'ów samemu sobie!",
+    "commands.transfersave.error.cannotSelfTransfer": "Nie możesz oddać save'ów samemu/ej sobie!",
     "commands.transfersave.error.targetHasMaxSaves": "Użytkownik docelowy ma już maksymalną liczbę save'ów!",
 
     "commands.failrole.roleDisabledMessage": "Rola psuja została usunięta.",
     "commands.failrole.roleEnabledMessage": "Rola psuja została zaktualizowana. ID: `{roleId}` | Nazwa roli: `{roleName}`",
     "commands.failrole.error.botMissingPermissions": "Nie mam uprawnienia `manage_roles`.",
     "commands.failrole.error.roleNotFound": "Nie udało się odnaleźć roli: `{arg}`",
-    "commands.failrole.error.cannotApplyRole": "Odnaleziono rolę `{arg}` ale nie mam uprawnień, by ją nadać. Spróbuj przesunąć rolę w dół listy.",
+    "commands.failrole.error.cannotApplyRole": "Odnaleziono rolę `{arg}`, ale nie mam uprawnień, by ją nadać. Spróbuj przesunąć rolę w dół listy.",
 
     "commands.numbersonly.embedTitle": "Tryb 'tylko liczby' został {state}.",
     "commands.numbersonly.error.missingModeArgument": "<@{authorId}> Musisz sprecyzować opcję. Opcje: `włączony`, `wyłączony`.",
@@ -75,7 +75,7 @@
 
     "commands.vote.embedDescription": "{descriptionPretext}Masz obecnie **{saves:g}/{saveSlots:g}** save'ów.\n[Kliknij tu, by zagłosować.](https://discordbots.org/bot/510016054391734273/vote)",
     "commands.vote.canVote": "✅ Możesz teraz zagłosować.\n",
-    "commands.vote.cannotVote": "❌ Już zagłosowałeś.\nMożesz zagłosować ponownie za **{hoursLeft:g} godzin**.\n",
+    "commands.vote.cannotVote": "❌ Już zagłosowałeś/aś.\nMożesz zagłosować ponownie za **{hoursLeft:g} godzin**.\n",
 
     "commands.language.embedTitle": "Język bota został zmieniony na `{arg}` w tej gildii.",
     "commands.language.argumentMissing.embedTitle": "Dostępne języki:",
